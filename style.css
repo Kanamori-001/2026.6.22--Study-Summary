@@ -2,10 +2,23 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 20px;
+  margin: 15px;
   font-size: 20px;
   background-color: rgb(113, 111, 114);
   color:rgb(255, 255, 255);
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.attention {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+  font-size: 23px
 }
 
 .section1 {
@@ -16,6 +29,16 @@ body {
 }
 
 .index{
-  background-color:rgb(203,68,198);
   color: rgb(255, 255, 255);
+  margin-right: 680px;
+}
+
+#html-css-deco-example{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgb(47, 136, 163);
+  color: rgb(0,255,0);
+  display: flex;
+  justify-content: center;
 }
